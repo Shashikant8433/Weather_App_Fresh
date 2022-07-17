@@ -5,9 +5,10 @@
 import * as $0 from "./routes/about.tsx";
 import * as $1 from "./routes/index.tsx";
 import * as $2 from "./routes/search.tsx";
-import * as $$0 from "./islands/PlaceSearcher.tsx";
-import * as $$1 from "./islands/PlaceSelector.tsx";
-import * as $$2 from "./islands/Table.tsx";
+import * as $$0 from "./islands/Nav.tsx";
+import * as $$1 from "./islands/PlaceSearcher.tsx";
+import * as $$2 from "./islands/PlaceSelector.tsx";
+import * as $$3 from "./islands/Table.tsx";
 
 const manifest = {
   routes: {
@@ -16,9 +17,10 @@ const manifest = {
     "./routes/search.tsx": $2,
   },
   islands: {
-    "./islands/PlaceSearcher.tsx": $$0,
-    "./islands/PlaceSelector.tsx": $$1,
-    "./islands/Table.tsx": $$2,
+    "./islands/Nav.tsx": $$0,
+    "./islands/PlaceSearcher.tsx": $$1,
+    "./islands/PlaceSelector.tsx": $$2,
+    "./islands/Table.tsx": $$3,
   },
   baseUrl: import.meta.url,
 };
